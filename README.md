@@ -11,7 +11,7 @@ This is a fun and interactive React application that plays a gif and audio when 
 ## Installation
 
 1. Clone the repository:
-`git clone https://github.com/yourusername/Thala-for-a-reason.git`
+`git clone [https://github.com/yourusername/Thala-for-a-reason.git](https://github.com/khardikk/Thala-for-a-reason)`
 
 2. Navigate to the project directory:
 `cd Thala-for-a-reason`
