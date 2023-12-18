@@ -1,6 +1,8 @@
 import './App.css'
 import React, { useState } from 'react';
 import bgm from './assets/bgm.mp3'; 
+import thalaImg from './assets/thala.gif';
+import tryAgainImg from './assets/try-again-lee.gif';
 import Confetti from 'react-dom-confetti';
 
 function App() {
@@ -109,8 +111,8 @@ return (
       {isPlaying && <button onClick={handleStop}>Try Another</button>}
       {showAltGif && <button onClick={handleStop}>Try Another</button>}
     </div>
-    {showGif && <img src="/src/assets/thala.gif" alt="Thala gif" />}
-    {showAltGif && <img src="/src/assets/try-again-lee.gif" alt="try again gif" />}
+    {showGif && <img src={thalaImg} alt="Thala gif" />}
+    {showAltGif && <img src={tryAgainImg} alt="try again gif" />}
   </div>
 );
 }
