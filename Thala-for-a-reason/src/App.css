@@ -1,0 +1,124 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.885);
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.app-container h1 {
+  color: #232323;
+  margin-bottom: 1em;
+}
+
+.app-container input {
+  padding: 1em;
+  width: 100%;
+  font-size: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.app-container button {
+  margin: 1em 1em;
+  padding: 1em 2em;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.app-container button:first-child {
+  background-color: #007BFF;
+}
+
+.app-container button:last-child {
+  background-color: #dc3545;
+}
+
+.app-container img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.app-container h2 {
+  color: #007BFF;
+  margin-top: 1em;
+}
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 1em;
+  }
+
+  .app-container h1 {
+    font-size: 2em;
+  }
+
+  .app-container input {
+    width: 100%;
+  }
+
+  .app-container button {
+    padding: 0.5em 1em;
+  }
+
+  .app-container h2 {
+    font-size: 1em;
+  }
+}
