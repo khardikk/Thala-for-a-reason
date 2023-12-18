@@ -23,9 +23,9 @@ This is a fun and interactive React application that plays a gif and audio when 
 ## Usage
 
 1. Start the application:
-`npm start`
+`npm run dev`
 
-2. Open your browser and visit `http://localhost:3000`.
+2. Open your browser and visit the given url
 
 ## Contributing
 
